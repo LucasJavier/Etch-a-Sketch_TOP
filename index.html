@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./logic.js" defer></script>
+
+    </head>
+
+    <body>
+
+        <div id="all_container">
+
+            <h1>Etch-a-Sketch</h1>
+
+            <main>
+
+                <div id="container-color">
+
+                    <input id="colorSelected" type="color"> 
+
+                </div>
+
+                <div class="palette">
+
+                    <img id="dropper" src="./Images/dropper.png" alt="dropper to copy a color.">
+
+                    <div id="canvas">
+
+                    </div>
+
+                </div>
+
+                <div id="settings_draw">
+
+                    <button id="myColor">Draw with color selected</button>
+                    <button id="rainbow">Draw with rainbow mode</button>
+                    <button id="eraser">Erases any square</button>
+                    <button id="clear">Clear all grid</button>
+
+                </div>
+
+                <div id="settings_grid">
+
+                    <label for="gridSize"></label>
+                    <input id="gridSize" type="range" min="1" max="64"> 
+
+                </div>
+
+            </main>
+
+            <footer>Created by: Bonacci, Lucas javier. For TOP</footer>
+
+        </div>
+
+    </body>
+</html>
